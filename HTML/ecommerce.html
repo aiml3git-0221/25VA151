@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-COMMERCE WEB PAGE</title>
+    <style>
+        body{
+            font-family: "Segoe UI", sans-serif; 
+            background-color: #f8f4ef;    
+            margin: 10px;
+        }
+        hr{
+            width: 85%;
+            border-top:1px solid #5a4633; 
+        }
+        ul{
+            list-style: none;
+            padding: 0px;
+        }
+        li{
+            display: inline-block;
+            margin: 20px;
+            font-size: 15px;
+            color: #5a4633;
+        }
+        .header{
+            margin-left:75px;
+            margin-top: 20px;
+        }
+        .product-section{
+            display:flex;
+            margin-top: 60px;
+            justify-content:center;
+        }
+        .left{
+            display:inline-block;
+            vertical-align: middle;
+            margin-right: 40px;
+        }
+        .left img{
+            width: 310px;
+            height:450px ;
+            border-radius: 35px;
+            background-color: #ffffff;
+            padding:20px;
+            box-shadow: 10px 0px 10px rgba(0,0,0,0.1);
+            margin-top: 70px;
+        }
+        .right{
+            display: inline-block;
+            vertical-align: top;
+            text-align: left;
+            font-size: 18px;
+            color: #3b2c22;
+            line-height: 24px;
+            max-width: 450px;
+        }
+        .tag-list li{
+            background-color: #e6dcd0;
+            padding: 6px 10px;
+            border-radius: 20px;
+            font-size: 13px;
+            margin-right: 0px;
+        }
+        .variant-box{
+            display: inline-block;
+            border: 1.5px solid #8b6f57;
+            padding: 8px 18px;
+            margin-right: 10px;
+            border-radius: 12px;
+            cursor: pointer;
+            background-color: #f2ebe5;
+        }
+        .variant-box:hover{
+            background-color: #dfd3c6;
+        }
+        .discount{
+            background-color: #5a4633;
+            color: white;
+            width: 60px;
+            padding: 4px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: -10px;
+        }
+        .buy-btn{
+            background-color: #5a4633;
+            color: white;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        .buy-btn:hover{
+            background-color:#796450;
+        }
+        .b{
+            background-color: #3e2f22;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li><b style="font-size:18px;">MINIMALIST</b></li>
+            <li>HOME</li>
+            <li>SHOP</li>
+            <li>CONTACT</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="product-section">
+        <div class="left">
+            <img src="https://sfycdn.speedsize.com/56385b25-4e17-4a9a-9bec-c421c18686fb/beminimalist.co/cdn/shop/products/VitaminC10_1200-1-min.png?crop=center&height=1260&v=1646543848&width=840">
+        </div>
+        <div class="right">
+            <h2 style="color:#5a4633;">Vitamin C 10% Face Serum</h2>
+            <h4 style="margin-top:-10px;">For Brighter, Glowing and Healthy Looking Skin</h4>
+            <p>
+                A glow-boosting daily serum with Vitamin C & PHA <br> 
+                that brightens, tones and reduces dullness.
+            </p>
+            <p><i>"Adds a beautiful glow once results start appearing!"</i></p>
+            <ul class="tag-list">
+                
+                <li>Fragrance free</li>
+                
+                <li>Essential oil free</li>
+                
+                <li>Non-comedogenic</li>
+            </ul>
+            <h4 style="margin-top:20px;">CHOOSE VARIANTS</h4>
+            <h6 style="margin-bottom:5px;">SELECT SIZE</h6>
+
+            <div class="variant-box">10ml</div>
+            <div class="variant-box">30ml</div>
+            <div style="margin-top:20px;">
+                <h4 style="margin-bottom:0;">PRICE:</h4>
+                <h5>MRP<s>₹299</s></h5>
+                <h2 style="margin-top:-10px;">₹284</h2>
+                <div class="discount">5% off</div>
+            </div>
+            <button class="buy-btn">ADD TO CART</button>
+        </div>
+        
+    </div>
+
+</body>
+</html>
