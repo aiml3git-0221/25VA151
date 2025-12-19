@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GRID LAYOUT</title>
+    </head>
+<style>
+    html{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    main{
+        height: 900px;
+        width: 1400px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 88px 500px 150px;
+        gap: 10px;
+    }
+    header,nav,footer{
+        background-color: cadetblue;
+        display: grid;
+        place-items: center;
+    }
+    section{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        gap:10px;
+    }
+    #left{
+        height: 500px;
+        display: grid;
+        place-items: center;
+        background-color: cadetblue;
+    }
+    #mid{
+        height: 500px;
+        display: grid;
+        place-items: center;
+        background-color: cadetblue;
+        gap: 10px;
+    }
+    #right{
+         height: 500px;
+        display: grid;
+        place-items: center;
+        background-color: cadetblue;
+        gap: 10px;
+    }
+</style>
+<body>
+    <main>
+        <header><h2>Header</h2></header>
+        <nav><h2>Nav</h2></nav>
+        <section>
+            <div id="left"><h2>left</h2></div>
+            <div id="mid"><h2>mid</h2></div>
+            <div id="right"><h2>right</h2></div>
+        </section>
+        <footer><h2>Footer</h2></footer>
+    </main>
+</body>
+</html>
