@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Amazon Clone</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+  }
+
+  /* HEADER */
+  .header {
+    display: flex;
+    align-items: center;
+    background: #131921;
+    color: white;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .location {
+    font-size: 12px;
+  }
+
+  .search-box {
+    flex: 1;
+    display: flex;
+  }
+
+  .search-box input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+  }
+
+  .search-box button {
+    padding: 8px 15px;
+    border: none;
+    background: #febd69;
+    cursor: pointer;
+  }
+
+  .nav-right span {
+    margin-left: 12px;
+    font-size: 14px;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    background: #232f3e;
+    padding: 10px;
+  }
+
+  .navbar a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  a:hover{
+    background-color: #40546b;
+    transition-duration: 0.5s;
+  }
+  
+  /* HERO SECTION */
+  .hero {
+    height: 300px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+  }
+
+  .hero button {
+    padding: 10px 20px;
+    background: #ffa41c;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* CATEGORY CARDS */
+  .categories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .card {
+    background: white;
+    padding: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+
+  /* TRENDING PRODUCTS */
+  .trending {
+    padding: 20px;
+  }
+
+  .product-row {
+    display: flex;
+    gap: 15px;
+  }
+
+  .product {
+    background: white;
+    padding: 30px;
+    border: 1px solid #ccc;
+    flex: 1;
+    text-align: center;
+  }
+
+  /* FOOTER */
+  .footer {
+    background: #131921;
+    color: white;
+    padding: 30px;
+    margin-top: 30px;
+  }
+
+  .footer-cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .copy {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="logo">amazon</div>
+
+  <div class="location">
+    Deliver to<br><strong>Your Location</strong>
+  </div>
+
+  <div class="search-box">
+    <input type="text" placeholder="Search Amazon">
+    <button>🔍</button>
+  </div>
+
+  <div class="nav-right">
+    <span>EN</span>
+    <span>Account</span>
+    <span>Orders</span>
+    <span>🛒 Cart</span>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <a href="#">All</a>
+  <a href="#">Fresh</a>
+  <a href="#">Mobiles</a>
+  <a href="#">Fashion</a>
+  <a href="#">Electronics</a>
+  <a href="#">Home</a>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div>
+    <h1>Big Deals Today</h1>
+    <p>Up to 50% Off</p>
+    <button>Shop Now</button>
+  </div>
+</div>
+
+<!-- CATEGORIES -->
+<div class="categories">
+  <div class="card">Top Offers</div>
+  <div class="card">Electronics</div>
+  <div class="card">Fashion</div>
+  <div class="card">Home Essentials</div>
+</div>
+
+<!-- TRENDING -->
+<div class="trending">
+  <h2>Trending Deals</h2>
+  <div class="product-row">
+    <div class="product">Product 1</div>
+    <div class="product">Product 2</div>
+    <div class="product">Product 3</div>
+    <div class="product">Product 4</div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="footer-cols">
+    <div>
+      <h4>Get to Know Us</h4>
+      <p>About Us</p>
+      <p>Careers</p>
+    </div>
+    <div>
+      <h4>Connect with Us</h4>
+      <p>Facebook</p>
+      <p>Instagram</p>
+    </div>
+    <div>
+      <h4>Make Money with Us</h4>
+      <p>Sell on Amazon</p>
+      <p>Affiliate</p>
+    </div>
+    <div>
+      <h4>Help</h4>
+      <p>Customer Service</p>
+      <p>Returns</p>
+    </div>
+  </div>
+
+  <div class="copy">© 2025 Amazon Clone</div>
+</div>
+
+</body>
+</html>
